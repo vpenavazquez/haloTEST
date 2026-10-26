@@ -70,8 +70,7 @@ class AscensorHalo {
     }
 
 
-    fun nivel_0(): Unit = pulsarBotonBajar()
-    fun nivel_1(): Unit = pulsarBotonSubir()
+
 
     private fun registrarError(): Unit {
         estadoActual = EstadoHalo.Error
